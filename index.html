@@ -10,26 +10,44 @@
 
 <body>
     <form action="">
-        <label for="name">Nombre </label>
-        <input type="text" name="name" required>
+        <div class="input-text">
+            <label for="name">Nombre </label>
+            <input type="text" name="name" placeholder="Example" required>
+        </div>
 
-        <label for="secondName">Primer Apellido </label>
-        <input type="text" name="secondName" required>
+        <div class="input-text">
+            <label for="secondName">Primer Apellido </label>
+            <input type="text" name="secondName" placeholder="Example" required>
+        </div>
 
-        <label for="birth">Fecha de nacimiento </label>
-        <input type="date" name="birth" required>
+        <div class="input-text">
+            <label for="birth">Fecha de nacimiento </label>
+            <input type="date" name="birth" required>
+        </div>
 
-        <label for="email">Email </label>
-        <input type="email" name="birth" required>
+        <div class="input-text">
+            <label for="email">Email </label>
+            <input type="email" name="email" placeholder="example@example.com" required>
+        </div>
 
-        <label for="password">Contraseña </label>
-        <input type="password" name="password" required>
+        <div class="input-text">
+            <label for="telefono">Telefono </label>
+            <input type="tel" name="telefono" pattern="[0-9]{9}" placeholder="643282120" required>
+        </div>
 
-        <label for="telefono">Telefono </label>
-        <input type="tel" name="telefono" pattern="[0-9]{9}" placeholder="643282120" required>
+        <div class="input-text">
+            <label for="password">Contraseña </label>
+            <input type="password" name="password" required>
+        </div>
 
-        <label for="favColour">Color favorito </label>
-        <input type="color" name="favColour" required>
+        <div class="input-color">
+            <label for="favColor">Color favorito </label>
+            <input type="color" name="favColor" required>
+        </div>
+
+        <div class="text">
+            <input type="submit" value="Submit">
+        </div>
     </form>
 </body>
 
