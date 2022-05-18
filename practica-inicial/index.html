@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1</title>
+</head>
+
+<body>
+    <h1>Sample Form</h1>
+    <form action="">
+        <div class="input-text">
+            <label for="name">Nombre </label>
+            <input type="text" name="name" placeholder="Example" required>
+        </div>
+
+        <div class="input-text">
+            <label for="secondName">Primer Apellido </label>
+            <input type="text" name="secondName" placeholder="Example" required>
+        </div>
+
+        <div class="input-text">
+            <label for="birth">Fecha de nacimiento </label>
+            <input type="date" name="birth" required>
+        </div>
+
+        <div class="input-text">
+            <label for="email">Email </label>
+            <input type="email" name="email" placeholder="example@example.com" required autocomplete="email">
+        </div>
+
+        <div class="input-text">
+            <label for="telefono">Telefono </label>
+            <input type="tel" name="telefono" pattern="[0-9]{9}" placeholder="643282120" required>
+        </div>
+
+        <div class="input-text">
+            <label for="password">Contraseña </label>
+            <input type="password" name="password" required autocomplete="email" placeholder="secure_password123">
+        </div>
+
+        <div class="input-color">
+            <label for="favColor">Color favorito </label>
+            <input type="color" name="favColor" required>
+        </div>
+
+        <div class="text">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
